@@ -4,6 +4,11 @@
 - RDF 문서 기반의 메타데이터 등록 / 수정 / 삭제 API 동작 예제 
 - Template Engine([thymeleaf](https://www.thymeleaf.org/))를 RDF(XML형식) 생성 예제
 
+## 파일설명
+- DCAT_Example.xml
+  - 빅데이터 플랫폼에서 통합데이터지도로 전송하기 위해 변환하는 RDF형태의 XML 예제 파일
+- 통합데이터지도_메타데이터연계_API_v1.3.xlsx
+  - 빅데이터 플랫폼에서 통합데이터 지도로 연계를 위한 API 상세 명세서
 
 ## 사전 설치 필요 패키지
 - Java 8
