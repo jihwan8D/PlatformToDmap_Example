@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF 
+    xmlns:foaf="http://xmlns.com/foaf/0.1/" 
+    xmlns:dct="http://purl.org/dc/terms/" 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dcat="http://www.w3.org/ns/dcat#" 
+    xmlns:dcatdp="https://www.bigdata-map.kr/ns/dcatdp#" 
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
+    <dcat:Dataset>
+        <dct:accessRights>public</dct:accessRights>
+        <dcat:contactPoint>
+            <vcard:Individual>
+                <vcard:fn>데이터관련연락처</vcard:fn>
+                <vcard:hasEmail rdf:resource="mailto:contact@example.com" />
+                <vcard:hasTelephone rdf:resource="tel:02-0000-0000" />
+            </vcard:Individual>
+        </dcat:contactPoint>
+        <dct:creator>
+            <foaf:Organization>
+                <foaf:name >데이터생산자(센터_플랫폼)</foaf:name>
+                <foaf:homepage rdf:resource="기관 홈페이지 URL" />
+                <foaf:mbox >creator@example.com</foaf:mbox>
+                <foaf:phone >02-0000-0000</foaf:phone>
+            </foaf:Organization>
+        </dct:creator>
+        <dct:publisher>
+            <foaf:Organization>
+                <foaf:name>데이터게재자(플랫폼)</foaf:name>
+                <foaf:homepage rdf:resource="플랫폼 페이지 URL" />
+                <foaf:mbox>publisher@example.com</foaf:mbox>
+                <foaf:phone>02-0000-0000</foaf:phone>
+            </foaf:Organization>
+        </dct:publisher>        
+
+        <dct:title>상품명</dct:title>
+        <dct:description>상품 설명 및 특징</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-09-09 00:00:00</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-09-09 00:00:00</dct:modified>
+        <dct:identifier>NIAXXXXXXXXX</dct:identifier>
+        <dct:type>dataset</dct:type>
+        <dcat:landingPage rdf:resource="https://www.bigdata-map.kr/dataset/0001" />
+        <dct:rights>Copyright 2020 ⓒ All Right Reserved.</dct:rights>
+        <dcat:keyword>키워드1</dcat:keyword>
+        <dcat:keyword>키워드2</dcat:keyword>
+        <dcat:keyword>키워드3</dcat:keyword>
+        <dcat:keyword>키워드4</dcat:keyword>
+        <dcat:keyword>키워드5</dcat:keyword>
+        <dcat:keyword>키워드6</dcat:keyword>
+        <dcat:keyword>키워드7</dcat:keyword>
+        <dcat:keyword>키워드8</dcat:keyword>
+        <dcat:keyword>키워드9</dcat:keyword>
+        <dcat:keyword>키워드10</dcat:keyword>
+
+        <dct:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/ko"></dct:language>
+        <dct:license>Creative Commons Attribution</dct:license>
+        <dcat:spatialResolutionInMeters>30.0</dcat:spatialResolutionInMeters>
+        <dcat:temporalResolution>1일</dcat:temporalResolution>
+        <dct:accrualPeriodicity>1개월</dct:accrualPeriodicity>
+        <dct:spatial>120749.725 487589.422, 120752.55 487594.375</dct:spatial>
+        <dct:temporal>temporal_start:2109-10-11,temporal_end:2019-12-25</dct:temporal>
+        
+        <dcat:distribution>
+            <dcat:Distribution>
+                <dct:title>상품명 혹은 파일 데이터명</dct:title>
+                <dct:description>상품 설명 혹은 파일 설명</dct:description>
+                <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-03 00:00:00</dct:issued>
+                <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-03 00:00:00</dct:modified>
+                <dct:accessRights>public</dct:accessRights>                
+                <dct:license>Creative Commons Attribution</dct:license>
+                <dct:rights></dct:rights>
+                <dcat:accessURL rdf:resource="https://www.bigdata-map.kr/20210910" />
+                <dcat:accessService></dcat:accessService>
+                <dcat:downloadURL rdf:resource="https://www.bigdata-map.kr/20210910/downloadDataSet.zip" />
+                <dcat:byteSize>107803000</dcat:byteSize>
+                <dcat:spatialResolutionInMeters></dcat:spatialResolutionInMeters>
+                <dcat:temporalResolution>1일</dcat:temporalResolution>
+                <dct:format>csv</dct:format>
+                <dcat:compressFormat>csv</dcat:compressFormat>
+                <dcatdp:unitPrice>1000000</dcatdp:unitPrice>
+                <dcatdp:enColumns>
+                       <dcatdp:enColumn index="1" name="Seq" type="Interger" pk="Y"/>
+                       <dcatdp:enColumn index="2" name="Title" type="Text"/>
+                       <dcatdp:enColumn index="3" name="Code" type="String(5)"/>
+                </dcatdp:enColumns>
+                <dcatdp:krColumns>
+                       <dcatdp:krColumn index="1" name="일련번호" type="Interger" pk="Y"/>
+                       <dcatdp:krColumn index="2" name="제목" type="Text"/>
+                       <dcatdp:krColumn index="3" name="코드" type="String(5)"/>
+                </dcatdp:krColumns>
+            </dcat:Distribution>
+        </dcat:distribution>
+
+        <dcatdp:prodCode>NIAXXXXXXXXX</dcatdp:prodCode>
+        <dcatdp:downloadCount>31</dcatdp:downloadCount>
+        <dcatdp:viewCount>31</dcatdp:viewCount>
+        <dcatdp:score>5</dcatdp:score>
+        <dcatdp:dataType>정형</dcatdp:dataType>
+        <dcatdp:modiType>원천</dcatdp:modiType>
+        <dcatdp:priceInfo>무료</dcatdp:priceInfo>
+        <dcatdp:replys>
+                <dcatdp:reply>
+                        <dcatdp:comment>댓글1</dcatdp:comment>
+                        <dcatdp:writer>작성자</dcatdp:writer>
+                        <dcatdp:replyRegDate>2021-09-09</dcatdp:replyRegDate>
+                </dcatdp:reply>
+                <dcatdp:reply>
+                        <dcatdp:comment>댓글2</dcatdp:comment>
+                        <dcatdp:writer>작성자</dcatdp:writer>
+                        <dcatdp:replyRegDate>2021-09-09</dcatdp:replyRegDate>
+                </dcatdp:reply>
+        </dcatdp:replys> 
+    </dcat:Dataset>
+</rdf:RDF>

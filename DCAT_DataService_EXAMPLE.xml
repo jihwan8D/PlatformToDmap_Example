@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF 
+    xmlns:foaf="http://xmlns.com/foaf/0.1/" 
+    xmlns:dct="http://purl.org/dc/terms/" 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dcat="http://www.w3.org/ns/dcat#" 
+    xmlns:dcatdp="https://www.bigdata-map.kr/ns/dcatdp#" 
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
+    <dcat:DataService>
+      <dct:accessRights>public</dct:accessRights>
+        <dcat:contactPoint>
+            <vcard:Individual>
+                <vcard:fn>데이터관련연락처</vcard:fn>
+                <vcard:hasEmail rdf:resource="mailto:contact@example.com" />
+                <vcard:hasTelephone rdf:resource="tel:02-0000-0000" />
+            </vcard:Individual>
+        </dcat:contactPoint>
+        <dct:creator>
+            <foaf:Organization>
+                <foaf:name >데이터생산자(센터_플랫폼)</foaf:name>
+                <foaf:homepage rdf:resource="기관 홈페이지 URL" />
+                <foaf:mbox >creator@example.com</foaf:mbox>
+                <foaf:phone >02-0000-0000</foaf:phone>
+            </foaf:Organization>
+        </dct:creator>
+        <dct:publisher>
+            <foaf:Organization>
+                <foaf:name>데이터게재자(플랫폼)</foaf:name>
+                <foaf:homepage rdf:resource="플랫폼 페이지 URL" />
+                <foaf:mbox>publisher@example.com</foaf:mbox>
+                <foaf:phone>02-0000-0000</foaf:phone>
+            </foaf:Organization>
+        </dct:publisher>        
+
+        <dct:title>상품명</dct:title>
+        <dct:description>상품 설명 및 특징</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-09-09 00:00:00</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-09-09 00:00:00</dct:modified>
+        <dct:identifier>NIAXXXXXXXXX</dct:identifier>
+        <dct:type>dataservice</dct:type>
+        <dcat:landingPage rdf:resource="https://www.bigdata-map.kr/dataset/0001" />
+        <dct:rights>Copyright 2020 ⓒ All Right Reserved.</dct:rights>
+        <dcat:keyword>키워드1</dcat:keyword>
+        <dcat:keyword>키워드2</dcat:keyword>
+        <dcat:keyword>키워드3</dcat:keyword>
+        <dcat:keyword>키워드4</dcat:keyword>
+        <dcat:keyword>키워드5</dcat:keyword>
+        <dcat:keyword>키워드6</dcat:keyword>
+        <dcat:keyword>키워드7</dcat:keyword>
+        <dcat:keyword>키워드8</dcat:keyword>
+        <dcat:keyword>키워드9</dcat:keyword>
+        <dcat:keyword>키워드10</dcat:keyword>
+
+        <dct:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/ko"></dct:language>
+        <dct:license>Creative Commons Attribution</dct:license>
+        <dcat:spatialResolutionInMeters>30.0</dcat:spatialResolutionInMeters>
+        <dcat:temporalResolution>1일</dcat:temporalResolution>
+        <dct:accrualPeriodicity>1개월</dct:accrualPeriodicity>
+        <dct:spatial>120749.725 487589.422, 120752.55 487594.375</dct:spatial>
+        <dct:temporal>temporal_start:2109-10-11,temporal_end:2019-12-25</dct:temporal>
+
+        <dcat:endpointURL rdf:resource="http://vocabs.ands.org.au/repository/api/sparql" />
+        <dcat:endpointDescription>DataService 설명</dcat:endpointDescription>
+        <dcat:servesDataset>xxxxxxx-xxxxxxx-xxxxxxx</dcat:servesDataset>  
+
+        <dcatdp:prodCode>NIAXXXXXXXXX</dcatdp:prodCode>      
+        <dcatdp:downloadCount>31</dcatdp:downloadCount>
+        <dcatdp:viewCount>31</dcatdp:viewCount>
+        <dcatdp:score>5</dcatdp:score>
+        <dcatdp:dataType>정형</dcatdp:dataType>
+        <dcatdp:modiType>원천</dcatdp:modiType>
+        <dcatdp:priceInfo>무료</dcatdp:priceInfo>
+        <dcatdp:replys>
+                <dcatdp:reply>
+                        <dcatdp:comment>댓글1</dcatdp:comment>
+                        <dcatdp:writer>작성자</dcatdp:writer>
+                        <dcatdp:replyRegDate>2021-09-09</dcatdp:replyRegDate>
+                </dcatdp:reply>
+                <dcatdp:reply>
+                        <dcatdp:comment>댓글2</dcatdp:comment>
+                        <dcatdp:writer>작성자</dcatdp:writer>
+                        <dcatdp:replyRegDate>2021-09-09</dcatdp:replyRegDate>
+                </dcatdp:reply>
+        </dcatdp:replys>  
+    </dcat:DataService>
+</rdf:RDF>
